@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Investment Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Investment Dashboard</h1>
+        <div class="wallet">
+            <p>Wallet Address:</p>
+            <span id="btc-address">bc1qfpgc439xewpv4al4mrcmdzejjrm8fp8m6lxh7f</span>
+        </div>
+        <div class="balance">
+            <h2>Balance: <span id="btc-balance">0.0000</span> BTC</h2>
+            <button id="add-deposit">Simulate Deposit</button>
+        </div>
+        <div class="transactions">
+            <h3>Transaction History</h3>
+            <ul id="transaction-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
